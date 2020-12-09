@@ -21,8 +21,8 @@ public class Main {
         f= (55+9)%9;
         System.out.println(f);
 
-        double  g;
-        g = 20.0 + ((-3.0 * 5.0) / 8.0);
+        double g;
+        g = (20.0 + ((-3.0 * 5.0) / 8.0));
         System.out.println(g);
 
         h= 5+((15/3)*2) - 8%3;
