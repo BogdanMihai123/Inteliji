@@ -27,6 +27,7 @@ public class Main {
 
         h= 5+((15/3)*2) - 8%3;
         System.out.println(h); //4
+
     }
 
 }
