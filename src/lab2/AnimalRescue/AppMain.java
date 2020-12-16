@@ -8,11 +8,17 @@ public class AppMain {
         RecreationActivity newactivity= new RecreationActivity();
         Veterenariar newvet = new Veterenariar();
 
-        System.out.println(myDog.FavouriteFood);
-        System.out.println((theadopter.name));
-        System.out.println(newfood.price);
-        System.out.println(newactivity.name3);
-        System.out.println(newvet.name);
-
+        myDog.setName("koko");
+        System.out.println(myDog.getname());
+        myDog.setAge(2);
+        System.out.println(myDog.getage());
+        theadopter.setAdoptername("GIONI");
+        System.out.println(theadopter.getadoptername());
+        newfood.setAvailability("NO STOCK");
+        System.out.println(newfood.getAvailability());
+        newactivity.setName1("WALKING");
+        System.out.println(newactivity.getName1());
+        newvet.setVetname("HORHE");
+        System.out.println(newvet.getVetname());
     }
 }
