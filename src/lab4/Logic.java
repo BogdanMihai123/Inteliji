@@ -1,5 +1,7 @@
 package lab4;
 
+import com.sun.jdi.Value;
+
 public class Logic {
 
     public void printToHundred(int startValue) {
@@ -87,4 +89,77 @@ public class Logic {
         }
         return sum;
     } //suma numerelor pana la 100 prin while
-}
+
+    public void whilenumar(int Value1){
+        while(Value1<=100){
+            System.out.println(Value1);
+            Value1++;
+        }
+    } //while ex 1;
+
+    public void whilenumar2(int Value1){
+        if(Value1>=-100){
+            while (Value1>=-100){
+                System.out.println(Value1);
+                Value1--;
+            } }
+            else if(Value1<=-100) {
+            while (Value1 <=-100) {
+                System.out.println(Value1);
+                Value1++;
+            }
+        }
+        } //while ex 2
+
+    public void whilebetweennumbers(int Value1, int Value2){
+        while (Value1<=Value2){
+            System.out.println(Value1);
+            Value1++;
+        }
+    } //while ex 3
+
+    public void whilebetweennumbers2(int Value1, int Value2){
+        if (Value1<=Value2){
+            while (Value1<=Value2){
+                System.out.println(Value1);
+                Value1++;
+            }
+        }else if (Value1>=Value2){
+            while (Value1>=Value2){
+                System.out.println(Value2);
+                Value2++;
+            }
+        }
+    } // while ex. 4
+
+    public void whileevennumbers(int Value1){
+        while (Value1<=100){
+            if (Value1%2==0){
+                System.out.println(Value1);}
+            Value1++;
+        }
+        } // while ex.5
+
+    public void whilenotevennumbers(int Value1){
+        while (Value1<=100){
+            if (Value1%2==1){
+                System.out.println(Value1);}
+            Value1++;
+        }
+    } //while ex.6
+
+    public void whilesumaverage(int Value1, int Value2){
+        int count=1;
+        long sum=Value1;
+        while(Value1<Value2){
+            sum=sum+Value1;
+            count++;}
+        double avg=sum/count;
+        System.out.println("Suma este: " + sum + "Media este: "+ avg);
+    } //while ex.7
+
+    }
+
+
+
+
