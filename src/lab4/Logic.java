@@ -18,7 +18,7 @@ public class Logic {
     public void printBetweenNumbers(int Value1, int Value2){
         for( int i=Value1; i>=Value2; i--){
             System.out.println(i);
-        }
+        } //3
     }
 
     public void comparison(int Value1,int Value2){
@@ -66,14 +66,6 @@ public class Logic {
         return avg;
     } // ex.8
 
-    public int sumwhile(int Value1){
-        int sum=0;
-        while(Value1<=100){
-            sum=sum+Value1;
-            Value1++;
-        }
-        return sum;
-    } //suma numerelor pana la 100 prin while
 
     public void minus(int Value1){
         if(Value1>-100){
@@ -86,4 +78,13 @@ public class Logic {
             }
         }
     } //2
+
+    public int sumwhile(int Value1){
+        int sum=0;
+        while(Value1<=100){
+            sum=sum+Value1;
+            Value1++;
+        }
+        return sum;
+    } //suma numerelor pana la 100 prin while
 }
