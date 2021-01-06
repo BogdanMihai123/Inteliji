@@ -158,6 +158,36 @@ public class Logic {
         System.out.println("Suma este: " + sum + "Media este: "+ avg);
     } //while ex.7
 
+    public double whileseven(int Value1, int Value2) {
+        double average;
+        double sum = 0;
+        int count = 0;
+        while (Value1 <= Value2) {
+            if (Value1 % 7 == 0) {
+                sum = sum + Value1;
+                count++;
+                            }
+            Value1++;
+        }
+        average = sum / count;
+        return average;
+    } //while ex.8
+
+    public void whilefibonacci() {
+        int r = 0;
+        int t = 1;
+        int i=1;
+        int sum = r + t, sum2;
+        System.out.println(r);
+        System.out.println(t);
+        while (i <= 20) {
+            System.out.println(r);
+            sum=r+t;
+            r=t;
+            t=sum;
+            i++;
+        }
+    } // while ex.9
     }
 
 

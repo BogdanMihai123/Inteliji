@@ -3,7 +3,7 @@ package lab4;
 public class lab4 {
 
     public static void main(String[] args) {
-        int x = 1, y=12;
+        int x = 1, y=15;
 
         Logic logic = new Logic();
         /*logic.printToHundred(x);
@@ -27,8 +27,14 @@ public class lab4 {
         logic.whilebetweennumbers(x,y);
         logic.whilebetweennumbers2(x,y);
         logic.whileevennumbers(x);
-        logic.whilenotevennumbers(x); */
+        logic.whilenotevennumbers(x);
         int m=111, n=8899;
         logic.whilesumaverage(m,n);
+
+        double result3;
+        result3= logic.whileseven(x,y);
+        System.out.println(result3); */
+
+        logic.whilefibonacci();
     }
 }
