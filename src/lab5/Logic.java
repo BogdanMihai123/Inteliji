@@ -89,6 +89,24 @@ public class Logic {
             System.out.println(array2[i]);
         }
     } // array ex.10
+
+    public void positionArray(int[] array, int value) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == value) {
+                System.out.println(i);
+            }
+        }
+
+} // array ex.6
+
+    public void showArray(String[] array){
+        for(int i=1; i<=10;i++){
+            for(int j=0; j<array.length;j++){
+                System.out.print(array[j]);
+            }
+            System.out.println();
+        }
+    } // array ex.7
 }
 
 

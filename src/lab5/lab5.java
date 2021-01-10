@@ -37,7 +37,12 @@ public class lab5 {
 
         //logic.secondminArray(thirdArray);
 
-        logic.copyArray(thirdArray,emptyArray);
+        //logic.copyArray(thirdArray,emptyArray);
+
+        // logic.positionArray(thirdArray,Value);
+
+        String[] newString= {"-","-","-","-","-","-","-","-","-","-"};
+        logic.showArray(newString);
     }
 
 
