@@ -44,9 +44,15 @@ public class lab5 {
         //String[] newString= {"-","-","-","-","-","-","-","-","-","-"};
         //logic.showArray(newString);
 
-        String[] newString2={"Yes", "No", "Maybe", "Next"};
-        String value="BAD";
-        System.out.println(logic.valueArray(newString2,value));
+        //String[] newString2={"Yes", "No", "Maybe", "Next"};
+        //String value="BAD";
+        // System.out.println(logic.valueArray(newString2,value));
+
+        // int position=2;
+        // int nextvalue=200;
+        // logic.insertposition(thirdArray,position,nextvalue);
+        //logic.minmaxArray(thirdArray);
+        logic.reverseArray(thirdArray,emptyArray);
     }
 
 

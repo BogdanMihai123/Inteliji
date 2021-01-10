@@ -115,6 +115,43 @@ public class Logic {
             }
         } return false;
     } // array ex.5
+
+    public void insertposition(int[] array, int value, int value2){
+        for(int i=0; i<array.length;i++){
+            if(i==value){
+                array[i]=value2;
+            }
+        }
+        for(int i=0;i<array.length;i++){
+            System.out.println(array[i]);
+        }
+    } // array optional ex.1
+
+    public void minmaxArray(int[] array){
+        int min=array[0];
+        int max=array[0];
+        for(int i=0;i<array.length;i++){
+            if(array[i]<min){
+                min=array[i];
+            }else if (array[i]>max){
+                max=array[i];
+            }
+        }
+        System.out.println("Maximul este:"+ max+ "Minimul este:"+min);
+    } // array optional ex.2
+
+    public void reverseArray(int[] array, int[] array2){
+        int i=array.length-1;
+        int j=0;
+        while (i>=0){
+            array2[j]=array[i];
+            i--;
+            j++;
+        }
+        for (int t=0; t<array2.length; t++){
+            System.out.println(array2[t]);
+        }
+    } // array optional ex.3
 }
 
 
