@@ -31,7 +31,7 @@ public class Logic {
 
         }
         return sum / array.length;
-    }
+    } // array ex.4
 
     public boolean isValueInArray(int[] array, int ceva) {
 
@@ -107,6 +107,14 @@ public class Logic {
             System.out.println();
         }
     } // array ex.7
+
+    public boolean valueArray(String[] array, String Value){
+        for(int i=0;i<array.length;i++){
+            if (array[i]==Value){
+                return true;
+            }
+        } return false;
+    } // array ex.5
 }
 
 
