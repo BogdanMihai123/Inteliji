@@ -59,4 +59,18 @@ public class Logic {
             System.out.println(myList.get(i));
         }
     } // list ex. 5
+
+    public void switchposition(List<Integer> myList, int position1, int position2){
+        int aux, val1, val2;
+        val1=myList.get(position1);
+        val2=myList.get(position2);
+        aux=val1;
+        val1=val2;
+        val2=aux;
+        myList.add(position1,val1);
+        myList.add(position2,val2);
+        for (int i=0;i<myList.size();i++){
+            System.out.println(myList.get(i));
+        }
+    }
 }

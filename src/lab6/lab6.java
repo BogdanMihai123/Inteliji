@@ -28,11 +28,13 @@ public class lab6 {
         //max= logic.biggestvaluefromlist(myList);
         //System.out.println(max);
 
-        List<String> Mylist= new ArrayList<>();
+        //List<String> Mylist= new ArrayList<>();
 
-        Mylist.add("YES");
-        Mylist.add("NO");
-        Mylist.add("Maybe");
-        logic.stringList(Mylist,2,"NEVER");
+       // Mylist.add("YES");
+        //Mylist.add("NO");
+       // Mylist.add("Maybe");
+        //logic.stringList(Mylist,2,"NEVER");
+
+        logic.switchposition(myList,0,1);
     }
 }
